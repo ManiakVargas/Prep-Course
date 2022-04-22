@@ -1,0 +1,44 @@
+body {
+    background-image: url(https://cdn.wallpapersafari.com/58/44/H7pyNK.jpg);
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.titulo {
+    color:rgb(33, 41, 44);
+}
+
+.divClass {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+img {
+    width: 400px;
+    height: 400px;
+}
+
+#thirdDiv {
+  background-color: rgb(229, 229, 229);
+  width: 500px;  
+  height: 600px;
+  margin: auto;
+  padding: 50px;
+  border: 3px rgb(70, 70, 70) solid;
+}
+
+.platillo {
+    color: darkred;
+    font-size: 18px;
+    margin: 10px;
+}
+
+.lugar {
+    color: rgb(139, 30, 0);
+    font-size: 18px;
+}
+
+.ingrediente {
+    color: midnightblue;
+    font-size: 18px;
+}
