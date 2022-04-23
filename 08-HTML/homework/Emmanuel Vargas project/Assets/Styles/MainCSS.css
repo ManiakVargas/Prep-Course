@@ -1,0 +1,175 @@
+body {
+    background-color: #1e1e1e;
+    background-image: url(Assets/Images/fondo.png);
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+
+body h3 {
+    text-align: center;
+    color: #0aa4ae;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+#barra {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    width: 100%;
+    margin: 0%;
+    padding: 0px;
+    overflow: hidden;
+    position:fixed;
+    top: 0;
+    left: 0%;
+    background-color: #00555b;
+}
+
+#barra div a {
+    display: block;
+    padding: 14px;
+    color: #c9c9c9;
+    text-align: center;
+    text-decoration: none;
+}
+
+#barra div:hover {
+    background-color: #1e1e1e;
+}
+
+.titulo {
+    margin-top: 120px;
+    text-align: center;
+}
+
+.titulo h1 {
+    margin-bottom: 0%;
+    color: #c9c9c9;
+    font-size: 45px;
+}
+
+.titulo h4 {
+    color: #0aa4ae;
+    margin-top: 2px;
+}
+
+#about {
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    margin-top: 120px;
+    padding-left: 100px;
+    padding-right: 100px;
+    flex-wrap:wrap;
+    align-content:space-between;
+}
+
+#about img {
+
+    height: 250px;
+    width: 250px;
+}
+
+#about h4 {
+    color: #0aa4ae;
+}
+
+#about div {
+    display: block;
+    height: 200px;
+    width: 500px;
+    color: #c9c9c9;  
+    align-content: center;  
+}
+
+#about p {
+    color: #c9c9c9; 
+    height: 200px;
+    width: 500px;
+}
+
+#edu {
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+}
+
+#edu div {
+    display: block;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#edu h4 {
+    text-align: center;
+    color: #0aa4ae;
+}
+
+#edu p {
+    text-align: center;
+    color: #c9c9c9;
+}
+
+#exp {
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+}
+
+#exp div {
+    display: block;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#exp h4 {
+    text-align: center;
+    color: #0aa4ae;
+}
+
+#exp p {
+    text-align: center;
+    color: #c9c9c9;
+}
+
+#skils {
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+}
+
+#skils div {
+    display: block;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#skils h4 {
+    text-align: center;
+    color: #0aa4ae;
+}
+
+#hobs {
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+}
+
+#hobs div {
+    display: block;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#hobs h3{
+    text-align: center;
+}
+
+#hobs img {
+    height: 100px;
+    width: 100px;
+    padding: 15px;
+    margin-bottom: 50px;
+}
